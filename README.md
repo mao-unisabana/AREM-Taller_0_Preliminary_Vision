@@ -1,5 +1,7 @@
 # 🛠️ Taller 0: Preliminary y Architecture Vision
 
+> 📌 **Este repo es ahora el repo vivo del cliente.** Por indicación de clase, todos los entregables de "Parte 2: Aplicación al Cliente Real" de los talleres siguientes se consolidan aquí, en [`proyecto-asul/`](proyecto-asul/), organizados por fase — en vez de quedar repartidos entre `AREM-Taller_1_BPMN`, `AREM-Taller_2_Modelo_Informacion`, etc. Esos repos conservan su Parte 1 (trabajo en clase) como registro de esa entrega puntual, pero el trabajo real sobre Asul Tecnologías de la Información SAS vive de aquí en adelante en este repositorio.
+
 ## 🎯 Objetivo
 
 Establecer el alcance, el contexto estratégico y la visión de alto nivel de la arquitectura del cliente real — fases **Preliminary** y **Architecture Vision** de TOGAF ADM — como base para todo el trabajo del semestre. Lo que se defina aquí es lo que heredan todos los talleres siguientes: si el alcance queda mal definido, el error se arrastra hasta la presentación final.
@@ -58,11 +60,15 @@ taller-00-preliminary-vision/
 │   ├── ficha-caracterizacion.md                 # Ver plantillas/plantilla_ficha_caracterizacion.md
 │   ├── vision.md                                # Ver plantillas/plantilla_vision.md
 │   └── referencias.md                           # Ver plantillas/plantilla_referencias.md
-└── plantillas/
-    ├── plantilla_ficha_caracterizacion.md
-    ├── plantilla_vision.md
-    ├── plantilla_notas.md
-    └── plantilla_referencias.md
+├── plantillas/
+│   ├── plantilla_ficha_caracterizacion.md
+│   ├── plantilla_vision.md
+│   ├── plantilla_notas.md
+│   └── plantilla_referencias.md
+└── proyecto-asul/                               # Repo vivo del cliente — Parte 2 de todos los talleres, por fase
+    ├── README.md                                # Índice de fases del proyecto aplicado
+    ├── fase-01-business-architecture-bpmn/      # Entregables del Taller 1
+    └── fase-02-datos-as-is/                     # Entregables del Taller 2
 ```
 
 ---
