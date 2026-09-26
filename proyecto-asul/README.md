@@ -9,7 +9,11 @@ Este es el repositorio que se mantiene durante todo el semestre para **Asul Tecn
 | 00 — Preliminary y Architecture Vision | Ficha de caracterización, documento de visión, referencias | [`../entrega/`](../entrega/) (se queda donde está — ya es parte de este mismo repo) | Taller 0 |
 | 01 — Business Architecture (BPMN) | Modelo BPMN del proceso de Desarrollo y Soporte, informe técnico, referencias | [`fase-01-business-architecture-bpmn/`](fase-01-business-architecture-bpmn/) | Taller 1 |
 | 02 — Datos AS-IS (Modelo de Información) | ERD y diagrama de contexto unificados, informe técnico, referencias | [`fase-02-datos-as-is/`](fase-02-datos-as-is/) | Taller 2 |
-| 03 en adelante | Se agregan aquí a medida que avance el semestre (C4/Aplicaciones, Tecnología, Seguridad, Normatividad, TO-BE, ...) | `fase-03-...` | Talleres 3+ |
+| 03 — Arquitectura C4 (Contexto y Contenedores) | Vistas C1/C2 del ecosistema de gestión de Asul (Azure DevOps, GitHub, SharePoint), informe técnico, referencias | [`fase-03-arquitectura-c4/`](fase-03-arquitectura-c4/) | Taller 3 |
+| 04 — Infraestructura | Mapa de infraestructura, diagnóstico priorizado, informe técnico, referencias | [`fase-04-infraestructura/`](fase-04-infraestructura/) | Taller 4 |
+| 05 — Seguridad (STRIDE) | DFD, tabla STRIDE de 9 amenazas priorizadas, informe técnico, referencias | [`fase-05-seguridad/`](fase-05-seguridad/) | Taller 5 |
+| 06 — Normatividad | Checklist de cumplimiento y brechas identificadas (parcial — ver informe), informe técnico, referencias | [`fase-06-normatividad/`](fase-06-normatividad/) | Taller 6 |
+| 07 en adelante | Se agregan aquí a medida que avance el semestre (TO-BE, roadmap, ...) | `fase-07-...` | Talleres 7+ |
 
 ## Por qué está organizado así
 

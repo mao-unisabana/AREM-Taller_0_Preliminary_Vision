@@ -1,0 +1,181 @@
+<mxfile host="Electron">
+  <diagram name="Mapa-Infraestructura" id="mapainfra">
+    <mxGraphModel dx="2468" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title1" parent="1" style="text;html=1;fontSize=18;fontStyle=1;fontColor=#1F3864;align=left;" value="Mapa de Infraestructura - Asul Tecnologias de la Informacion SAS" vertex="1">
+          <mxGeometry height="30" width="1100" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bound_ws" parent="1" style="rounded=1;fillColor=none;strokeColor=#8c9bab;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontStyle=1;fontSize=13;fontColor=#4a5568;" value="Puestos de Trabajo - Equipo Asul" vertex="1">
+          <mxGeometry height="260" width="260" x="-300" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ws1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="💻 Computadores propios (cada desarrollador)" vertex="1">
+          <mxGeometry height="50" width="220" x="-280" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ws2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#7b1f1f;fontColor=#ffffff;fontSize=10;fontStyle=1;" value="⚠ Alejandro (Lider Tecnico) despliega a produccion" vertex="1">
+          <mxGeometry height="50" width="220" x="-280" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="ws3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#7b1f1f;fontColor=#ffffff;fontSize=10;fontStyle=1;" value="⚠ Despliegue depende de 1 persona (respaldo puntual: Leonardo, Ronald)" vertex="1">
+          <mxGeometry height="60" width="220" x="-280" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bound_bk" parent="1" style="rounded=1;fillColor=none;strokeColor=#8c9bab;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontStyle=1;fontSize=13;fontColor=#4a5568;" value="Backups" vertex="1">
+          <mxGeometry height="200" width="260" x="-300" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="bk1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="💻 Equipo-servidor de sincronizacion (descarga SharePoint a disco local)" vertex="1">
+          <mxGeometry height="55" width="220" x="-280" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="bk2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#7b1f1f;fontColor=#ffffff;fontSize=10;fontStyle=1;" value="⚠ Copia semanal a disco externo (hasta 7 dias de perdida potencial)" vertex="1">
+          <mxGeometry height="45" width="220" x="-280" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="bk3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="Backup de codigo fuente (disco)" vertex="1">
+          <mxGeometry height="30" width="220" x="-280" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="fw1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#7b1f1f;fontColor=#ffffff;fontSize=10;fontStyle=1;" value="⚠ Firewall del Cliente (IPs fijas / whitelist - por proyecto)" vertex="1">
+          <mxGeometry height="70" width="240" x="160" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vpn1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=10;strokeWidth=3;" value="VPN del Cliente (uso exclusivo del Cliente - Asul SIN acceso)" vertex="1">
+          <mxGeometry height="70" width="240" x="160" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bound_east" parent="1" style="rounded=1;fillColor=none;strokeColor=#8c9bab;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontStyle=1;fontSize=13;fontColor=#4a5568;" value="Azure - Region US East (primaria)" vertex="1">
+          <mxGeometry height="260" width="300" x="640" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vm_east" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="VMs - Ambiente de Produccion (por proyecto de cliente)" vertex="1">
+          <mxGeometry height="55" width="260" x="660" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="db_east" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=10;" value="Azure SQL Database (primaria)" vertex="1">
+          <mxGeometry height="60" width="260" x="660" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="db_east_r" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=10;" value="Replica de reportes (descarga a la BD productiva)" vertex="1">
+          <mxGeometry height="55" width="260" x="660" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="bound_west" parent="1" style="rounded=1;fillColor=none;strokeColor=#8c9bab;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontStyle=1;fontSize=13;fontColor=#4a5568;" value="Azure - Region US West (replica / DR)" vertex="1">
+          <mxGeometry height="260" width="300" x="1190" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vm_west" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="VMs replicadas (recuperacion ante desastres)" vertex="1">
+          <mxGeometry height="55" width="260" x="1210" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="db_west" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=10;" value="Azure SQL Database (replica disponible)" vertex="1">
+          <mxGeometry height="60" width="260" x="1210" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dr1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="Pruebas periodicas de Disaster Recovery (manuales)" vertex="1">
+          <mxGeometry height="55" width="260" x="1210" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="mon1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="Azure Monitor (metricas e informes de infraestructura)" vertex="1">
+          <mxGeometry height="60" width="300" x="640" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="mgmt1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427b;strokeColor=#052e56;fontColor=#ffffff;fontSize=10;" value="Ecosistema de Gestion Asul (Azure DevOps + GitHub + SharePoint) [detalle en Fase 03 - C2]" vertex="1">
+          <mxGeometry height="70" width="300" x="1190" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="multi1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#7b1f1f;fontColor=#ffffff;fontSize=10;fontStyle=1;" value="⚠ Separacion de infraestructura entre clientes: no confirmada en la entrevista (pendiente de validar)" vertex="1">
+          <mxGeometry height="90" width="240" x="160" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="ws1" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=9;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="fw1" value="acceso via IP publica">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="ws2" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=9;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="fw1" value="despliegue manual">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="fw1" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=9;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="vm_east" value="acceso permitido (IP whitelisteada)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="145" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="vpn1" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" target="vm_east" value="acceso del Cliente (sin Asul)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="vm_east" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=9;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="db_east" value="consultas / transacciones">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="db_east" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=9;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="db_east_r" value="replicacion automatica">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="vm_east" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" target="vm_west" value="replicacion geografica">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="db_east" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" target="db_west" value="replicacion automatica">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="vm_west" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=9;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="dr1" value="failover / pruebas">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="157.5" />
+              <mxPoint x="1570" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="vm_east" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="mon1" value="metricas">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="185" />
+              <mxPoint x="1010" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="vm_west" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" target="mon1" value="metricas">
+          <mxGeometry relative="1" x="0.8108" y="8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1340" y="20" />
+              <mxPoint x="1630" y="20" />
+              <mxPoint x="1630" y="480" />
+              <mxPoint x="790" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="ws1" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=9;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="mgmt1" value="Azure Boards, GitHub, SharePoint">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-340" y="140" />
+              <mxPoint x="-340" y="600" />
+              <mxPoint x="1340" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="bk1" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=9;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="bk2" value="sincroniza (rezago semanal)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nota1" parent="1" style="text;html=1;fontSize=11;align=left;" value="Nota: no se identifico en la entrevista un cuello de botella tecnico especifico distinto a los ya senalados (dependencia de Alejandro y rezago del backup semanal de SharePoint)." vertex="1">
+          <mxGeometry height="40" width="1200" x="40" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="leg_title" parent="1" style="text;html=1;fontSize=12;fontStyle=1;" value="Leyenda" vertex="1">
+          <mxGeometry height="20" width="200" x="40" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="leg1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="40" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="leg1t" parent="1" style="text;html=1;fontSize=11;align=left;" value="Componente de infraestructura" vertex="1">
+          <mxGeometry height="24" width="260" x="74" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="40" y="738" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2t" parent="1" style="text;html=1;fontSize=11;align=left;" value="Base de datos" vertex="1">
+          <mxGeometry height="24" width="260" x="74" y="738" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c0392b;strokeColor=#7b1f1f;fontColor=#ffffff;fontSize=10;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="340" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3t" parent="1" style="text;html=1;fontSize=11;align=left;" value="⚠ Riesgo / punto de atencion" vertex="1">
+          <mxGeometry height="24" width="320" x="374" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=10;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="340" y="738" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4t" parent="1" style="text;html=1;fontSize=11;align=left;" value="Fuera del control de Asul" vertex="1">
+          <mxGeometry height="24" width="320" x="374" y="738" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
