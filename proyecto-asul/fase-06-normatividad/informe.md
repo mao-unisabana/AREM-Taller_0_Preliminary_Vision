@@ -28,7 +28,7 @@ Asul cumple de forma sólida el marco de Habeas Data (Ley 1581): tiene política
 Las brechas más relevantes no están en la protección de datos personales de terceros, sino en **la gestión del ciclo de vida de la información propia del negocio**: no hay certificación externa de seguridad de la información (solo buenas prácticas internas bajo ITMark), y sobre todo, **no existe ningún proceso de eliminación o anonimización del código fuente y los documentos de un cliente una vez finaliza el contrato** — se conservan indefinidamente "porque a veces los clientes vuelven después de años". Esto es un hallazgo importante porque, si ese código o esos documentos contienen datos personales de los empleados o clientes finales de ese cliente, la retención indefinida entra en tensión directa con los principios de finalidad y conservación de la propia Ley 1581 que Asul sí cumple en su rol de responsable de los datos de sus propios empleados.
 
 **Supuestos tomados:**
-- Se asumió que "ITMark" (mencionado como "itemarca" en la transcripción de la entrevista) corresponde a la certificación ITMark ya registrada en la Ficha de Caracterización del Taller 0 como uno de los marcos de calidad de Asul, y no a otro término.
+- Se asumió que "ITMark" corresponde a la certificación ITMark ya registrada en la Ficha de Caracterización del Taller 0 como uno de los marcos de calidad de Asul, y no a otro término.
 - La confirmación de que no aplica normativa sectorial específica se tomó como una declaración de la cliente, no como una verificación independiente del equipo contra un listado de circulares del sector asegurador; si en el futuro Asul atiende un cliente de un sector más regulado, este criterio debería reevaluarse.
 
 **Actualización (octubre 2026):** con la confirmación directa del cliente, el criterio 11 del checklist pasa de "⚠️ (sin información)" a "✅ Cumple", y la brecha correspondiente se retira de la hoja "Brechas Identificadas" (quedan 4 brechas priorizadas en vez de 5). Esta fue la única pregunta que había quedado sin responder de la entrevista original.
@@ -66,9 +66,6 @@ La Ley 1581 de 2012 y su decreto reglamentario 1377 de 2013 establecen que los d
 - [6] Barrera Díaz, Luz Miryan. *Confirmación directa — MFA habilitado y no aplicabilidad de normativa sectorial específica*. Comunicación con el cliente, octubre de 2026.
 - [7] Fuente asistida por IA: Claude (Anthropic), septiembre-octubre de 2026 — apoyo en la construcción del checklist en Excel y en la redacción de este informe.
 
-## ⚠️ Pendiente antes de la sustentación
-
-- Confirmar el nombre exacto del primer nivel de soporte del cliente (transcrito como "SBS") y del segundo cliente mencionado con modelo de alojamiento distinto (transcrito como "SMPPI"), para citarlos con precisión si terminan siendo relevantes para este taller.
 
 ---
 
