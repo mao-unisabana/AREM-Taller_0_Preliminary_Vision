@@ -13,7 +13,8 @@ Este es el repositorio que se mantiene durante todo el semestre para **Asul Tecn
 | 04 — Infraestructura | Mapa de infraestructura, diagnóstico priorizado, informe técnico, referencias | [`fase-04-infraestructura/`](fase-04-infraestructura/) | Taller 4 |
 | 05 — Seguridad (STRIDE) | DFD, tabla STRIDE de 9 amenazas priorizadas, informe técnico, referencias | [`fase-05-seguridad/`](fase-05-seguridad/) | Taller 5 |
 | 06 — Normatividad | Checklist de cumplimiento y brechas identificadas (parcial — ver informe), informe técnico, referencias | [`fase-06-normatividad/`](fase-06-normatividad/) | Taller 6 |
-| 07 en adelante | Se agregan aquí a medida que avance el semestre (TO-BE, roadmap, ...) | `fase-07-...` | Talleres 7+ |
+| 07 — Opportunities & Solutions | Diagnóstico consolidado, matriz de decisión ponderada (cuenta compartida Azure DevOps), diagramas TO-BE (aplicaciones e infraestructura), matriz de brechas cerradas/capacidades, informe técnico, referencias | [`fase-07-oportunidades-soluciones/`](fase-07-oportunidades-soluciones/) | Taller 7 |
+| 08 en adelante | Se agregan aquí a medida que avance el semestre (roadmap, gobierno, ...) | `fase-08-...` | Talleres 8+ |
 
 ## Por qué está organizado así
 
