@@ -1,41 +1,274 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="Electron">
   <diagram name="TO-BE-C2-Aplicaciones" id="tobeapp">
-    <mxGraphModel dx="1700" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="950" math="0" shadow="0">
+    <mxGraphModel dx="3305" dy="2042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="950" math="0" shadow="0">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <mxCell id="title1" value="TO-BE - Diagrama de Contenedores (C2) - Ecosistema de Gestion Asul" style="text;html=1;fontSize=18;fontStyle=1;fontColor=#1F3864;align=left;" vertex="1" parent="1"><mxGeometry x="40" y="20" width="1100" height="30" as="geometry"/></mxCell><mxCell id="subtitle1" value="Extiende c2-contenedores-final.drawio (Fase 03). Elementos en verde = NUEVO (Taller 7). El resto es identico al AS-IS." style="text;html=1;fontSize=11;fontStyle=2;fontColor=#555555;align=left;" vertex="1" parent="1"><mxGeometry x="40" y="52" width="1100" height="20" as="geometry"/></mxCell><mxCell id="per1" value="Alejandro
-(Lider Tecnico)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="110" width="190" height="90" as="geometry"/></mxCell><mxCell id="per2" value="Analista de Sistemas
-(Soporte)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="220" width="190" height="90" as="geometry"/></mxCell><mxCell id="per3" value="Equipo de
-Desarrollo" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="330" width="190" height="90" as="geometry"/></mxCell><mxCell id="bound1" value="Ecosistema de Gestion Asul (TO-BE)" style="rounded=1;fillColor=none;strokeColor=#8c9bab;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontStyle=1;fontSize=13;fontColor=#4a5568;" vertex="1" parent="1"><mxGeometry x="320" y="90" width="820" height="460" as="geometry"/></mxCell><mxCell id="cont1" value="Azure Boards
-(epicas, historias, sprints,
-test plans, tickets de soporte)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="350" y="140" width="240" height="90" as="geometry"/></mxCell><mxCell id="cont2" value="Repositorio de Codigo
-(GitHub)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="630" y="140" width="260" height="90" as="geometry"/></mxCell><mxCell id="cont3" value="Repositorio Documental
-(SharePoint - lineas base
-y borradores)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="350" y="260" width="240" height="90" as="geometry"/></mxCell><mxCell id="cont4" value="Time Tracker
-(add-on de registro de horas
-de soporte y desarrollo)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="630" y="260" width="260" height="90" as="geometry"/></mxCell><mxCell id="cont5" value="✅ NUEVO: Azure Pipelines
-(ACTIVADO - CI/CD automatizado
-de build y despliegue)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="350" y="380" width="240" height="90" as="geometry"/></mxCell><mxCell id="infra1" value="Microsoft Entra ID /
-Directorio Activo
-(dominio Asul)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=10;" vertex="1" parent="1"><mxGeometry x="660" y="385" width="220" height="90" as="geometry"/></mxCell><mxCell id="bitacora" value="✅ NUEVO: Bitacora de Acceso
-Compartido (mitigacion R1)
-Registro interno de quien usa
-la cuenta compartida y cuando" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="910" y="140" width="220" height="100" as="geometry"/></mxCell><mxCell id="ext1" value="Jira
-(sistema del Cliente)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="1190" y="140" width="240" height="90" as="geometry"/></mxCell><mxCell id="ext2" value="Correo Corporativo
-(Microsoft 365)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="1190" y="260" width="240" height="90" as="geometry"/></mxCell><mxCell id="ext3" value="Ambiente de Produccion
-(Azure - VMs + Azure SQL Database,
-replicado East/West US)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="1190" y="380" width="240" height="130" as="geometry"/></mxCell><mxCell id="ext4" value="Azure Monitor
-(metricas e infraestructura)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="1190" y="530" width="240" height="80" as="geometry"/></mxCell><mxCell id="e1" value="gestiona casos de soporte" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="per1" target="cont1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e2" value="colabora en gestion de casos" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="per2" target="cont1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e3" value="gestiona requerimientos/sprints/pruebas" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="per3" target="cont1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e4" value="push / pull de codigo [Git]" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="per3" target="cont2"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e5" value="publica y consulta documentos,
-genera lineas base" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="per1" target="cont3"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e6" value="registra tiempos [API interna]" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="cont1" target="cont4"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e7" value="autentica usuarios [SSO]" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" edge="1" parent="1" source="cont1" target="infra1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e8" value="autentica usuarios [SSO]" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" edge="1" parent="1" source="cont2" target="infra1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e9" value="autentica usuarios [SSO]" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" edge="1" parent="1" source="cont3" target="infra1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e10" value="dispara build/deploy
-automatico [NUEVO]" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="cont2" target="cont5"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e10b" value="despliega automaticamente
-a produccion [NUEVO]" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="cont5" target="ext3"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e11" value="ticket asignado/mencionado
-a Rentec [MANUAL - sin cambios]" style="endArrow=block;strokeColor=#b85450;dashed=1;fontColor=#b85450;strokeWidth=1.5;fontSize=10;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="ext1" target="cont1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e12" value="actualizacion de estado
-[MANUAL - sin cambios]" style="endArrow=block;strokeColor=#b85450;dashed=1;fontColor=#b85450;strokeWidth=1.5;fontSize=10;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="cont1" target="ext1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e13" value="notifica asignacion/mencion a Rentec" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="cont1" target="ext2"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e14" value="alerta de ticket asignado/movido" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="ext2" target="per1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e15" value="despliegue manual de respaldo
-(casos excepcionales)" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" edge="1" parent="1" source="per1" target="ext3"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e17" value="expone metricas de infraestructura" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" edge="1" parent="1" source="ext3" target="ext4"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e18" value="registra uso de la cuenta
-compartida [NUEVO]" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="per1" target="bitacora"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e19" value="registra uso de la cuenta
-compartida [NUEVO]" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="per2" target="bitacora"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="e20" value="consulta al usar la
-cuenta compartida [NUEVO]" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;" edge="1" parent="1" source="bitacora" target="cont1"><mxGeometry relative="1" as="geometry"/></mxCell><mxCell id="nota1" value="Brechas que cierra este TO-BE: R4 (despliegue dependiente de 1 persona, Fase 05) via Azure Pipelines; R1 (cuenta compartida, Fase 05) via la bitacora de acceso (mitigacion acordada en la matriz de decision, ver mejora-arquitectura.md). La sincronizacion manual Jira-Azure Boards y la separacion de infraestructura por cliente quedan en el backlog (seccion 2.1 de la lluvia de ideas), no se tocan en esta iteracion." style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="40" y="570" width="1390" height="50" as="geometry"/></mxCell><mxCell id="leg_title" value="Leyenda" style="text;html=1;fontSize=12;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="640" width="200" height="20" as="geometry"/></mxCell><mxCell id="leg1" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="665" width="24" height="24" as="geometry"/></mxCell><mxCell id="leg1t" value="Persona" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="74" y="665" width="260" height="24" as="geometry"/></mxCell><mxCell id="leg2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="698" width="24" height="24" as="geometry"/></mxCell><mxCell id="leg2t" value="Contenedor AS-IS (sin cambios)" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="74" y="698" width="260" height="24" as="geometry"/></mxCell><mxCell id="leg3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontSize=11;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="340" y="665" width="24" height="24" as="geometry"/></mxCell><mxCell id="leg3t" value="✅ NUEVO (Taller 7)" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="374" y="665" width="320" height="24" as="geometry"/></mxCell><mxCell id="leg4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;strokeWidth=3;" vertex="1" parent="1"><mxGeometry x="340" y="698" width="24" height="24" as="geometry"/></mxCell><mxCell id="leg4t" value="Sistema externo" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="374" y="698" width="320" height="24" as="geometry"/></mxCell><mxCell id="leg5" value="" style="endArrow=block;strokeColor=#b85450;dashed=1;fontColor=#b85450;strokeWidth=1.5;fontSize=10;labelBackgroundColor=#ffffff;html=1;" vertex="1" parent="1"><mxGeometry x="700" y="665" width="60" height="4" as="geometry"/></mxCell><mxCell id="leg5t" value="Flujo manual sin cambios (backlog)" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="770" y="655" width="320" height="24" as="geometry"/></mxCell><mxCell id="leg6" value="" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;" vertex="1" parent="1"><mxGeometry x="700" y="698" width="60" height="4" as="geometry"/></mxCell><mxCell id="leg6t" value="Flujo NUEVO" style="text;html=1;fontSize=11;align=left;" vertex="1" parent="1"><mxGeometry x="770" y="688" width="320" height="24" as="geometry"/></mxCell>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title1" parent="1" style="text;html=1;fontSize=18;fontStyle=1;fontColor=#1F3864;align=left;" value="TO-BE - Diagrama de Contenedores (C2) - Ecosistema de Gestion Asul" vertex="1">
+          <mxGeometry height="30" width="1100" x="40" y="-180" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle1" parent="1" style="text;html=1;fontSize=11;fontStyle=2;fontColor=#555555;align=left;" value="Extiende c2-contenedores-final.drawio (Fase 03). Elementos en verde = NUEVO (Taller 7). El resto es identico al AS-IS." vertex="1">
+          <mxGeometry height="20" width="1100" x="40" y="-148" as="geometry" />
+        </mxCell>
+        <mxCell id="per1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Alejandro (Lider Tecnico)" vertex="1">
+          <mxGeometry height="90" width="190" x="-116" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="per2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Analista de Sistemas (Soporte)" vertex="1">
+          <mxGeometry height="90" width="190" x="-116" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="per3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Equipo de Desarrollo" vertex="1">
+          <mxGeometry height="90" width="190" x="-116" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bound1" parent="1" style="rounded=1;fillColor=none;strokeColor=#8c9bab;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontStyle=1;fontSize=13;fontColor=#4a5568;" value="Ecosistema de Gestion Asul (TO-BE)" vertex="1">
+          <mxGeometry height="490" width="990" x="230" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="cont1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Azure Boards (epicas, historias, sprints, test plans, tickets de soporte)" vertex="1">
+          <mxGeometry height="90" width="240" x="350" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="cont2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Repositorio de Codigo (GitHub)" vertex="1">
+          <mxGeometry height="90" width="260" x="630" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="cont3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Repositorio Documental (SharePoint - lineas base y borradores)" vertex="1">
+          <mxGeometry height="90" width="240" x="350" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="cont4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Time Tracker (add-on de registro de horas de soporte y desarrollo)" vertex="1">
+          <mxGeometry height="90" width="260" x="630" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="cont5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="✅ NUEVO: Azure Pipelines (ACTIVADO - CI/CD automatizado de build y despliegue)" vertex="1">
+          <mxGeometry height="90" width="240" x="350" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="infra1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=10;" value="Microsoft Entra ID / Directorio Activo (dominio Asul)" vertex="1">
+          <mxGeometry height="90" width="220" x="660" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="bitacora" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="✅ NUEVO: Bitacora de Acceso Compartido (mitigacion R1) Registro interno de quien usa la cuenta compartida de Jira y cuando" vertex="1">
+          <mxGeometry height="100" width="220" x="1000" y="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ext1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;strokeWidth=3;" value="Jira (sistema del Cliente)" vertex="1">
+          <mxGeometry height="90" width="240" x="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="ext2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;strokeWidth=3;" value="Correo Corporativo (Microsoft 365)" vertex="1">
+          <mxGeometry height="90" width="240" x="1430" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ext3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;strokeWidth=3;" value="Ambiente de Produccion (Azure - VMs + Azure SQL Database, replicado East/West US)" vertex="1">
+          <mxGeometry height="130" width="240" x="1430" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ext4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;strokeWidth=3;" value="Azure Monitor (metricas e infraestructura)" vertex="1">
+          <mxGeometry height="80" width="240" x="1430" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="per1" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;exitX=0.813;exitY=0.133;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="cont1" value="gestiona casos de soporte">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="-40" />
+              <mxPoint x="590" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="per2" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="cont1" value="colabora en gestion de casos">
+          <mxGeometry relative="1" x="-0.2132" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="160" y="160" />
+              <mxPoint x="160" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="per3" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="cont1" value="gestiona requerimientos/sprints/pruebas">
+          <mxGeometry relative="1" x="-0.2609" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="160" y="275" />
+              <mxPoint x="160" y="180" />
+              <mxPoint x="310" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="per3" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="cont2" value="push / pull de codigo [Git]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-240" y="280" />
+              <mxPoint x="-240" y="-20" />
+              <mxPoint x="760" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="per1" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;" target="cont3" value="publica y consulta documentos, genera lineas base">
+          <mxGeometry relative="1" x="-0.4555" y="19" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="260" y="60" />
+              <mxPoint x="260" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="cont1" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="cont4" value="registra tiempos [API interna]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="150" />
+              <mxPoint x="800" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="cont1" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="infra1" value="autentica usuarios [SSO]">
+          <mxGeometry relative="1" x="-0.7117" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="410" y="150" />
+              <mxPoint x="600" y="150" />
+              <mxPoint x="600" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="cont2" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" target="infra1" value="autentica usuarios [SSO]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="91" />
+              <mxPoint x="960" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="cont3" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="infra1" value="autentica usuarios [SSO]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="270" />
+              <mxPoint x="660" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="cont2" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;entryX=0.713;entryY=0.928;entryDx=0;entryDy=0;entryPerimeter=0;" target="cont5" value="dispara build/deploy automatico [NUEVO]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="160" />
+              <mxPoint x="940" y="160" />
+              <mxPoint x="940" y="410" />
+              <mxPoint x="520" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10b" edge="1" parent="1" source="cont5" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;" target="ext3" value="despliega automaticamente a produccion [NUEVO]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="440" />
+              <mxPoint x="1250" y="440" />
+              <mxPoint x="1250" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" style="endArrow=block;strokeColor=#b85450;dashed=1;fontColor=#b85450;strokeWidth=1.5;fontSize=10;labelBackgroundColor=#ffffff;html=1;" value="ticket asignado/mencionado a Rentec [MANUAL - sin cambios]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1600" y="-160" />
+              <mxPoint x="760" y="-160" />
+            </Array>
+            <mxPoint x="1600" y="-10" as="sourcePoint" />
+            <mxPoint x="490" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="cont1" style="endArrow=block;strokeColor=#b85450;dashed=1;fontColor=#b85450;strokeWidth=1.5;fontSize=10;labelBackgroundColor=#ffffff;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ext1" value="actualizacion de estado [MANUAL - sin cambios]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="-120" />
+              <mxPoint x="1550" y="-130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="cont1" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;exitX=0.549;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" target="ext2" value="notifica asignacion/mencion a Rentec">
+          <mxGeometry relative="1" x="-0.2156" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="480" y="20" />
+              <mxPoint x="1280" y="30" />
+              <mxPoint x="1280" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="ext2" style="endArrow=block;strokeColor=#555555;strokeWidth=1.5;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;html=1;entryX=0.403;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" target="per1" value="alerta de ticket asignado/movido">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1800" y="165" />
+              <mxPoint x="1800" y="-100" />
+              <mxPoint x="-40" y="-100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="per1" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;entryX=-0.012;entryY=0.912;entryDx=0;entryDy=0;entryPerimeter=0;" target="ext3" value="despliegue manual de respaldo (casos excepcionales)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-210" y="55" />
+              <mxPoint x="-210" y="520" />
+              <mxPoint x="1350" y="520" />
+              <mxPoint x="1350" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="ext3" style="endArrow=none;dashed=1;strokeColor=#999999;fontSize=9;fontColor=#777777;html=1;" target="ext4" value="expone metricas de infraestructura">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="per1" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;" target="bitacora" value="registra uso de la cuenta de Jira compartida [NUEVO]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-21" y="-80" />
+              <mxPoint x="1110" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="per2" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="bitacora" value="registra uso de la cuenta de Jira compartida [NUEVO]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="160" />
+              <mxPoint x="-180" y="-60" />
+              <mxPoint x="1165" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="bitacora" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="ext1" value="consulta Jira al usar la cuenta compartida [NUEVO]">
+          <mxGeometry relative="1" x="-0.3357" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1110" y="190" />
+              <mxPoint x="1240" y="190" />
+              <mxPoint x="1240" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leg_title" parent="1" style="text;html=1;fontSize=12;fontStyle=1;" value="Leyenda" vertex="1">
+          <mxGeometry height="20" width="200" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="leg1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="40" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="leg1t" parent="1" style="text;html=1;fontSize=11;align=left;" value="Persona" vertex="1">
+          <mxGeometry height="24" width="260" x="74" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="40" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="leg2t" parent="1" style="text;html=1;fontSize=11;align=left;" value="Contenedor AS-IS (sin cambios)" vertex="1">
+          <mxGeometry height="24" width="260" x="74" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#2e7d32;strokeColor=#1b5e20;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="340" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="leg3t" parent="1" style="text;html=1;fontSize=11;align=left;" value="✅ NUEVO (Taller 7)" vertex="1">
+          <mxGeometry height="24" width="320" x="374" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;strokeWidth=3;" value="" vertex="1">
+          <mxGeometry height="24" width="24" x="340" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="leg4t" parent="1" style="text;html=1;fontSize=11;align=left;" value="Sistema externo" vertex="1">
+          <mxGeometry height="24" width="320" x="374" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="leg5" parent="1" style="endArrow=block;strokeColor=#b85450;dashed=1;fontColor=#b85450;strokeWidth=1.5;fontSize=10;labelBackgroundColor=#ffffff;html=1;" value="" vertex="1">
+          <mxGeometry height="4" width="60" x="700" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="leg5t" parent="1" style="text;html=1;fontSize=11;align=left;" value="Flujo manual sin cambios (backlog)" vertex="1">
+          <mxGeometry height="24" width="320" x="770" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="leg6" parent="1" style="endArrow=block;strokeColor=#2e7d32;strokeWidth=2;fontSize=10;fontColor=#1b5e20;fontStyle=1;labelBackgroundColor=#ffffff;html=1;" value="" vertex="1">
+          <mxGeometry height="4" width="60" x="700" y="698" as="geometry" />
+        </mxCell>
+        <mxCell id="leg6t" parent="1" style="text;html=1;fontSize=11;align=left;" value="Flujo NUEVO" vertex="1">
+          <mxGeometry height="24" width="320" x="770" y="688" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

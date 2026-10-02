@@ -40,7 +40,7 @@ Ver [`c1-contexto-final.drawio`](c1-contexto-final.drawio) y [`c2-contenedores-f
 
 | Nombre del elemento | Tipo | Descripción | Responsable |
 |---|---|---|---|
-| Alejandro | Persona | Líder técnico; único administrador de despliegues y de las cuentas de soporte en Azure DevOps | Asul |
+| Alejandro | Persona | Líder técnico; único administrador de despliegues; único titular de la cuenta de Jira entregada por el cliente (licencia única) | Asul |
 | Analista de Sistemas | Persona | Colabora con Alejandro en la gestión de casos de soporte | Asul |
 | Equipo de Desarrollo | Persona (grupo) | Historias, sprints, pruebas y tareas de los proyectos | Asul |
 | Cliente (Rentec) | Persona externa | Equipo del cliente que gestiona tickets en Jira, tras el triage de un primer nivel de soporte | Cliente de Asul |
